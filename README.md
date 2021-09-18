@@ -1,24 +1,12 @@
-# webself
+# 👋🏻 Welcome
 
-## Project setup
-```
-npm install
-```
+Nice to meet you! This repository is related to the website where my CV is described.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Everything has been developed by myself so enjoy!
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 📦 Frameworks
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- __Vue 3__.    
+
+- __GSAP:__ Another way to manage transitions.
