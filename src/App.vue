@@ -1,14 +1,14 @@
 <template>
-  <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-  </div>
   <router-view v-slot="{Component}">
     <transition name="route" mode="out-in">
       <component :is="Component">
       </component>
     </transition>
   </router-view>
+  <!-- footer -->
+  <div class="footer">
+    Everything has been coded by me ♡
+  </div>
 </template>
 
 <script>
@@ -25,8 +25,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffffbe;
-  background: linear-gradient(#2c3e50, #202931);
+  background: rgb(24, 24, 24);
   min-width: 100vw;
+  max-width: 100vw;
+  overflow: hidden;
   min-height: 100vh;
 }
 
@@ -68,5 +70,15 @@ export default {
 .route-enter-active,
 .route-leave-active {
   transition: all 0.3s ease-out;
+}
+
+/** footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  background: rgb(53, 53, 53);
+  color: white;
 }
 </style>
